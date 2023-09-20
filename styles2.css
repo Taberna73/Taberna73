@@ -1,0 +1,87 @@
+body {
+    font-family: Times New Roman;
+    background-color: Ivory;
+}
+   
+
+h1  {
+    font-family: Arial;
+    color: olive;
+    font-size: 25px;
+    margin-bottom: .3em;
+    text-align: center;
+    }
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 10px;
+    margin: 20px;
+    justify-content:left;
+  }
+.price{
+  width:35%;
+  margin:10px;
+}
+.price img
+   {
+   width:400px%;
+   height:400px%
+   }
+.price li{
+   padding:10px;
+}
+.price .grey{
+   background-color: #eee;
+  color: #111;
+}
+table {
+    margin: .3em;
+    width: 290px;
+  }
+th {
+  padding: .2em;
+}
+
+td {
+  padding-left: .5em;
+  padding-right: .5em;
+  border: 1px solid #900;
+  background-color: #ffc;
+}
+
+#trHeader {
+  text-decoration: underline;
+  color: #900;
+}
+
+.centerCell {
+  text-align: center;
+}
+img{
+   width:200px;
+}
+img:hover{
+ color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(2,2); /* Safari and Chrome */
+}
+.contact-section{
+    font-size:20px;
+    background-color: #DBF9FC;
+ }
+  
+footer {
+            background-color: grey;
+            font-size :25px;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+        }

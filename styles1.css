@@ -1,0 +1,52 @@
+/* styles1.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman;
+    background-color: #DBF9FC;
+    font-size: 25px;
+}
+
+h1  {
+    font-family: Arial;
+    color: olive;
+    font-size: 1em;
+    margin-bottom: .3em;
+    text-align: left;
+    }
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between images as needed */
+    margin: 20px; /* Adjust the margin as needed */
+}
+
+.collage img {
+    width: 400px; /* Images fill the grid cells */
+    height: 400px;
+}
+.contact-section{
+    font-size:25px;
+ }
+   
+footer {
+            background-color: grey;
+            font-size :25px;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+        }
+
+img:hover{
+ color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(2,2); /* Safari and Chrome */
+}
